@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Crimson Text", serif;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 50px;
+  color: #000;
+  user-select: none;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie-list:not(h3) {
+  font-size: 20px;
+}
+.movie-info {
+  max-width: 45%;
+  border-radius: 15px;
+  background-color: #030002;
+  padding: 15px;
+  margin: 10px;
+  transition: 0.6s;
+  display: flex;
+  flex-direction: column;
+}
+.movie-info:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #f58f4c;
+}
+img {
+  border-radius: 10%;
+  background-size: contain;
+  float: left;
+  max-width: 250px;
+  height: 350px;
+  padding: 10px;
+}
+h3 {
+  text-align: center;
+  /* padding-top: 3px; */
+}
+a {
+  text-decoration: none;
+}
+button {
+  background-color: #c7363ead;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: "Crimson Text", serif;
+  font-size: 25px;
+  margin: 5px;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  background-color: #500d0d;
+}
+.details {
+  font-weight: 700;
+  text-align: center;
+}
+.header > p::first-letter {
+  font-size: 38px;
+}
